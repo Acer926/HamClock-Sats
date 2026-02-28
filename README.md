@@ -10,7 +10,7 @@ Designed for HamClock installations running under WSL (Windows Subsystem for Lin
 
 The program pulls satellite data from the AMSAT nasabare.txt list and rebuilds the esats.txt file used by HamClock.
 
-What It Does
+#What It Does
 
 Updates esats.txt every 2.5 hours (HamClock expires TLE data at 3 hours)
 
@@ -22,7 +22,7 @@ Supports any number of satellites up to 52 (plus Moon)
 
 Satellite names must match entries from the AMSAT nasabare.txt file exactly (case-insensitive, but spelling must match).
 
-Requirements
+##Requirements
 
 Windows 10 or 11
 
@@ -32,7 +32,7 @@ HamClock running under WSL
 
 Access to your HamClock folder, for example:
 
-Setup
+#Setup
 
 Extract all files into a folder.
 
@@ -50,7 +50,7 @@ Double-click the icon to reopen.
 
 Right-click the icon to exit.
 
-Notes
+#Notes
 
 eSat-list.txt can contain up to 52 satellite names.
 
