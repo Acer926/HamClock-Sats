@@ -44,15 +44,15 @@ Access to your HamClock folder, for example:
 
 ## Setup
 
-Extract all files into a folder.
+open the Program-EXE folder here and download the 2 files to a folder of your choice on your PC.
 
-Run the program.
+Run the program.  the EXE file  ..
 
 Enter the full path to your HamClock folder in the textbox.
 
 Edit eSat-list.txt in the same folder as the EXE to choose your satellites (or run with the default list).
 
-Minimize the program.
+Minimize the program to free up your screen..  
 
 When minimized, the icon appears in the taskbar’s Show hidden icons area (the small arrow near the clock).
 
