@@ -2,6 +2,11 @@
 HamClock Installations on Windows , Satellite TLE updater.  
 HamClock eSat Updater
 
+## Program-EXE Folder
+ The 2 files you need to run this  .. just put them in the same folder on your drive.
+
+-------------------------------------------------------------------------------------
+
 It’s not pretty, but it’s been working on my install of HamClock.
 
 Small Windows app that automatically updates the HamClock esats.txt file every 2.5 hours.
