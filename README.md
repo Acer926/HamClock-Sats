@@ -1,5 +1,5 @@
 # HamClock-Sats
-HamClock on Windows , Satellite TLE updater.  
+HamClock Installations on Windows , Satellite TLE updater.  
 HamClock eSat Updater
 
 It’s not pretty, but it’s been working on my install of HamClock.
@@ -10,7 +10,12 @@ Designed for HamClock installations running under WSL (Windows Subsystem for Lin
 
 The program pulls satellite data from the AMSAT nasabare.txt list and rebuilds the esats.txt file used by HamClock.
 
-#What It Does
+
+
+<img width="835" height="560" alt="appphoto1" src="https://github.com/user-attachments/assets/1f6b0158-09bb-4418-b001-74b4325c3234" />
+
+
+## What It Does
 
 Updates esats.txt every 2.5 hours (HamClock expires TLE data at 3 hours)
 
@@ -22,7 +27,7 @@ Supports any number of satellites up to 52 (plus Moon)
 
 Satellite names must match entries from the AMSAT nasabare.txt file exactly (case-insensitive, but spelling must match).
 
-##Requirements
+## Requirements
 
 Windows 10 or 11
 
@@ -32,7 +37,7 @@ HamClock running under WSL
 
 Access to your HamClock folder, for example:
 
-#Setup
+## Setup
 
 Extract all files into a folder.
 
@@ -46,11 +51,13 @@ Minimize the program.
 
 When minimized, the icon appears in the taskbar’s Show hidden icons area (the small arrow near the clock).
 
-Double-click the icon to reopen.
+Double-click the icon to reopen or Right-click the icon for Menu open or close.
 
-Right-click the icon to exit.
 
-#Notes
+![hiddenicons1](https://github.com/user-attachments/assets/892098bb-94d7-4310-bb2a-b3f869e82abe)
+
+
+## Notes
 
 eSat-list.txt can contain up to 52 satellite names.
 
@@ -64,56 +71,56 @@ Default Satellite List (Example)
 
 The included eSat-list.txt contains the following satellites plus Moon:
 
-NO-44
-RS-44
-SO-50
-AO-07
-AO-27
-AO-73
-AO-95
-AO-123
-CO-55
-CO-65
-FO-29
-GO-32
-HADES-ICM (SO-125)
-ISAT
-ISS
-JO-97
-LILACSAT-2
-LO-19
-LO-74
-PO-101
-QO-100
-ROBUSTA-3A
-RS22
-RS30
-RS38S
-SONATE-2
-Sparrow
-TechnoSat
-CSS (TIANHE-1)
-UmKA 1 (RS40S)
-UO-11
-CO-57
-CO-58
-CO-66
-SRMSAT
-ZACUBE-1
-Delfi-N3xt
-GOMX-1
-DTUSAT-2
-EO-80
-Horyu-4
-Lapan A3
-CAS-2T
-AO-91
-S-Net D
-S-Net B
-S-Net A
-S-Net C
-Ten-Koh
-MinXSS-2
-SNUSat 2
-SnugLite
-Moon
+- NO-44
+- RS-44
+- SO-50
+- AO-07
+- AO-27
+- AO-73
+- AO-95
+- AO-123
+- CO-55
+- CO-65
+- FO-29
+- GO-32
+- HADES-ICM (SO-125)
+- ISAT
+- ISS
+- JO-97
+- LILACSAT-2
+- LO-19
+- LO-74
+- PO-101
+- QO-100
+- ROBUSTA-3A
+- RS22
+- RS30
+- RS38S
+- SONATE-2
+- Sparrow
+- TechnoSat
+- CSS (TIANHE-1)
+- UmKA 1 (RS40S)
+- UO-11
+- CO-57
+- CO-58
+- CO-66
+- SRMSAT
+- ZACUBE-1
+- Delfi-N3xt
+- GOMX-1
+- DTUSAT-2
+- EO-80
+- Horyu-4
+- Lapan A3
+- CAS-2T
+- AO-91
+- S-Net D
+- S-Net B
+- S-Net A
+- S-Net C
+- Ten-Koh
+- MinXSS-2
+- SNUSat 2
+- SnugLite
+- Moon
