@@ -4,6 +4,7 @@ Imports System.Net
 
 Public Class FrmHamClockeSats
 
+
     Const Moon1 As String = "1     1U     1A   26034.68546296  .00000000  00000-0  0000000 0  0016"
     Const Moon2 As String = "2     1  27.9862  -3.7664 0362000  88.2926  68.6200  0.03660000    18"
 
